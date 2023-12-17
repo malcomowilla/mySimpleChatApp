@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500&family=Nanum+Myeongjo&family=Shadows+Into+Light&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components{
+.my-font{
+  font-family: 'Shadows Into Light', cursive;
+
+}
+.text{
+  font-family: 'Nanum Myeongjo', serif;
+}
+}
+
+.text-2{
+  font-family: 'Comfortaa', sans-serif;
+font-family: 'Nanum Myeongjo', serif;
+}
+
+
+
+
