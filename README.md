@@ -33,11 +33,12 @@ Follow the steps below to set up and run the project locally:
 - Access the chat room and start chatting with other users.
 
 ## Running the application
+- Open your browser and visit http://localhost:3000 to view the app.
+
 
 ```bash
 npm run dev
 
-Open your browser and visit http://localhost:3000 to view the app.
 
 
 
