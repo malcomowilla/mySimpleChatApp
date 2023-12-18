@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Shadows+Into+Light&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500&family=Nanum+Myeongjo&family=Shadows+Into+Light&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500&family=Indie+Flower&family=Nanum+Myeongjo&family=Shadows+Into+Light&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -19,11 +19,15 @@
 }
 }
 
-.text-2{
+.text2{
   font-family: 'Comfortaa', sans-serif;
 font-family: 'Nanum Myeongjo', serif;
 }
 
 
+.text3{
+  font-family: 'Comfortaa', sans-serif;
+font-family: 'Indie Flower', cursive;
 
+}
 

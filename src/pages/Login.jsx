@@ -37,15 +37,27 @@ const handleLoginWithGoogle = ()=> {
   return (
 
 
-    <div className="hero min-h-screen " style={{backgroundImage: 'url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)'}}>
+    <div className="hero min-h-screen " >
+        
   <div className="hero-overlay bg-opacity-60"></div>
+  <video controls autoPlay loop className="object-cover w-full h-full"  >
+
+<source src="/istockphoto-1449327718-640_adpp_is.mp4" type="video/mp4"></source>
+        </video>
+
+        {/* <audio controls className="hidden" autoPlay loop>
+
+<source src="/RainFallMedium PE1005201.mp3" type="audio/mp3">
+
+</source>
+        </audio> */}
   <div className="hero-content text-center text-neutral-content">
     <div className="max-w-md">
       <h1 className="mb-5 text-[100px] font-bold text-white my-font">Hello there 👋🏻</h1>
       <p className="mb-5 text-white text-lg text">          Join the conversation, meet new people, and make connections in one shared room.
 .</p>
-      <button  onClick={handleLoginWithGoogle}  className="btn ">Login With Google</button>
-
+      <button  onClick={handleLoginWithGoogle}  className="btn ">Login With Google <img  className="max-w-[20px]" src="/search.png"/>
+</button>
     </div>
   </div>
 </div>

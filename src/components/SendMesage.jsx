@@ -10,8 +10,6 @@ const [text, setText] = useState('')
 const {currentUser} = useContext(AuthContext)
 const [error, setError] = useState('')
 const [alertMessage, setAlertMessage] = useState(true)
-
-
 const  handleMessage = ()=>{
     setAlertMessage(!alertMessage)
 }
